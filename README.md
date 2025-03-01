@@ -1,45 +1,37 @@
 # Forecasting Global Population Trends
 
 ## Introduction
-This project utilizes Power BI's Forecasting feature to analyze global population trends from 1960 to 2021 and project future growth over the next 10 years. Through advanced predictive analysis, the report provides valuable insights into population dynamics worldwide.
+In this project, I explored global population data using Power BI. The goal was to analyze trends from 1960 to 2021 and use Power BI's forecasting tool to predict how the population might grow over the next 10 years.
 
-## Steps Overview
+## Steps
 
-1. **Add and Customize a Line Chart:**
-   - Load the `WorldPopulation.pbix` file into Power BI.
-   - Add a line chart with:
-     - **X-axis:** `Year` (without date hierarchy).
-     - **Y-axis:** `Population`.
-   - Resize the chart and update the title to **World Population by Year**.
-   - Use the **Format Painter** tool to style the line chart consistently with the report's visualizations.
+1. **Adding a Line Chart**  
+   I started by opening the `WorldPopulation.pbix` file and added a line chart at the bottom of the report page. For the axes:
+   - **X-axis:** `Year` (without date hierarchy).
+   - **Y-axis:** `Population`.
 
-2. **Enhance with Forecasting:**
-   - Select the line chart and enable the Forecast tool from the Analytics pane.
-   - Set the following parameters:
-     - Forecast Length: **10 years**.
-     - Confidence Interval: **95%**.
-   - Apply changes and hover over the forecast line to view insights.
+   I resized the chart, updated the title to "World Population by Year," and used the **Format Painter** tool to make the style consistent with the rest of the report.
 
-3. **Customize the Forecast Line:**
-   - Update the forecast line settings:
-     - Change line color to **blue**.
-     - Set transparency to **50%**.
-     - Adjust the confidence band style to **Line**.
-     - Add a tooltip title: **Population Forecast**.
+2. **Applying Forecasting**  
+   I selected the line chart and enabled the forecasting option from the **Analytics** pane. Here’s what I set:
+   - Forecast Length: **10 years**.
+   - Confidence Interval: **95%**.  
 
-4. **Final Report:**
-   - Review and adjust visualizations to align with the report’s overall design.
-   - Ensure the forecast adds predictive value and enhances the analysis.
+   After applying the changes, I reviewed the forecast line and the insights it provided by hovering over the visualization.
 
-## Key Outcomes
-- **Predictive Insights:** Projections for global population trends over the next decade.
-- **Interactive Visualizations:** Customizable line chart with forecast and confidence intervals.
-- **Actionable Analysis:** Empower decision-making with forecasts based on historical data.
+3. **Customizing the Forecast Line**  
+   To improve the look of the forecast, I made a few adjustments:  
+   - Changed the line color.  
+   - Set the transparency to 50% to highlight the projection.  
+   - Modified the confidence band style to lines.  
+   - Updated the tooltip title to "Population Forecast" for clarity.  
 
-## Visualizations
-- Placeholder for the forecast line chart:
-  
+   This made the forecast both informative and visually cohesive with the rest of the report.
+
+## Outcome
+The final report not only shows historical population trends but also offers a clear forecast for the next decade. This predictive analysis adds a valuable forward-looking perspective to the report, making it a great tool for understanding global population growth.
+
+## Visualization
+- Placeholder for the forecast chart:
+
   ![Insert Forecast Chart Here](./World_population.png)
-
-## Conclusion
-This project demonstrates Power BI’s Forecasting capabilities to predict global population trends. The resulting report adds a forward-looking perspective to the analysis, providing stakeholders with valuable insights for planning and decision-making.
